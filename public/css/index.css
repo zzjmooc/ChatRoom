@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+    color: #fff;
+}
+.IndexDiv{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #FF9C5F;
+}
+.BottomDiv{
+	width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color: #253939;
+}
+.IndexLeft{
+    margin: 0 auto;
+    margin-top: -160px;
+    width: 320px;
+    height: 160px;
+    background-color: #5fa292;
+    text-align: center;
+    border-radius: 6px;
+    border-radius: 400px 400px 0 0;
+    line-height: 160px;
+    font-size: 36px;
+}
+.Indexright{
+    margin: 0 auto;
+    width: 320px;
+    height:160px;
+    background-color: #558188;
+    text-align: center;
+    border-radius: 6px;
+    border-radius:0 0 320px 320px;
+    line-height: 160px;
+    font-size: 36px;
+}
+a:hover{
+    background-color: #ddd;
+    color: #333;
+}

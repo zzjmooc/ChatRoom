@@ -1,0 +1,165 @@
+html, body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+/*
+ * @author FrankDian 
+ * @date 2016/08/24
+ * 修改
+ */
+#mainbody{
+	/*width: 730px;*/
+	width: 1030px;
+	height: auto;
+	background: red;
+	margin: 0 auto;
+}
+#OnlineMsg{
+	width: 200px;
+	height: 640px;
+    padding: 5px;
+    margin: 0;
+    float: right;
+    background-color: #ddd;
+}
+#OM-head{
+	margin: 30px;
+	padding: 10px;
+	background: greenyellow;
+}
+#OM-middle{
+	padding: 2px;
+	background: #FFFFFF;
+	height: 300px;
+	text-align: center;
+}
+.users{
+	margin: 0 auto;
+	color: green;
+}
+#OM-foot{
+	margin: 4px 0;
+	background: #FFFFFF;
+	padding: 2px;
+	text-align: center;
+	height: 220px;
+	width: 196px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	word-break: break-all;
+	
+}
+/*
+ * @author FrankDian 
+ * @date 2016/08/24
+ * 修改
+ */
+.wrapper {
+    width:800px;
+    height: 640px;
+    padding: 5px;
+    margin: 0;
+    float: left;
+    background-color: #ddd;
+}
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 200px;
+}
+
+#nickWrapper {
+    display: none;
+}
+.banner {
+    height: 80px;
+    width: 100%;
+}
+.banner h1{
+	margin-bottom: 10px;
+}
+
+.controls {
+    height: 100px;
+    margin: 5px 0px;
+    position: relative;
+}
+#historyMsg {
+    height: 400px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+}
+#historyMsg img {
+    max-width: 99%;
+}
+.timespan {
+    color: #ddd;
+}
+.items {
+    height: 30px;
+}
+#colorStyle {
+    width: 50px;
+    border: none;
+    padding: 0;
+}
+/*文件上传*/
+
+.imageLable {
+    position: relative;
+}
+#sendImage {
+    position: absolute;
+    width: 52px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+/*
+ * @author FrankDian
+ * @date 2016/08/24
+ * 修改
+ */
+#messageInput {
+    width: 740px;
+    max-width: 740px;
+    height: 90px;
+    max-height: 90px;
+}
+#sendBtn {
+    width: 50px;
+    height: 96px;
+    float: right;
+}
+#emojiWrapper {
+    display: none;
+    width: 500px;
+    bottom: 105px;
+    position: absolute;
+    background-color: #aaa;
+    box-shadow: 0 0 10px #555;
+}
+#emojiWrapper img {
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+#emojiWrapper img:hover {
+    background-color: blue;
+}
+.emoji{
+    display: inline;
+}
+footer {
+    text-align: center;
+}
